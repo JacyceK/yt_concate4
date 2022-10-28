@@ -20,7 +20,6 @@ def main():
     ]
     utils = Utils()
     p = Pipeline(steps)
-    p.run(inputs)
     p.run(inputs, utils)
 
 
